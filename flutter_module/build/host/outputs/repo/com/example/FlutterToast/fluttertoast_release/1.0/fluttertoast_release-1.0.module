@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.FlutterToast",
+    "module": "fluttertoast_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast_release-1.0.aar",
+          "url": "fluttertoast_release-1.0.aar",
+          "size": 10205,
+          "sha512": "cf57cc4b35bdc84c5729287a969835cc37a162192fd1e409300743cd88add450ea93c2865a778fa2b70ccc6caaf16b942db4a7b2f38b5c6f27a87d967a2b79bb",
+          "sha256": "6c76dde000209570172d473f81089899a8792c514bf063b050e2d7d36c9cda8d",
+          "sha1": "f8b966ff89fde265cb279e0e60aaff8a602b424e",
+          "md5": "76ae8975dd3d0db456662932d047b503"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast_release-1.0.aar",
+          "url": "fluttertoast_release-1.0.aar",
+          "size": 10205,
+          "sha512": "cf57cc4b35bdc84c5729287a969835cc37a162192fd1e409300743cd88add450ea93c2865a778fa2b70ccc6caaf16b942db4a7b2f38b5c6f27a87d967a2b79bb",
+          "sha256": "6c76dde000209570172d473f81089899a8792c514bf063b050e2d7d36c9cda8d",
+          "sha1": "f8b966ff89fde265cb279e0e60aaff8a602b424e",
+          "md5": "76ae8975dd3d0db456662932d047b503"
+        }
+      ]
+    }
+  ]
+}

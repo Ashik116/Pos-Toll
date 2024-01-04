@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.flutter_module",
+    "module": "flutter_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.peoplewareinnovations.bluetooth_thermal_printer",
+          "module": "bluetooth_thermal_printer_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "xyz.luan.audioplayers",
+          "module": "audioplayers_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.lib.flutter_blue_plus",
+          "module": "flutter_blue_plus_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.bluetooth_print",
+          "module": "bluetooth_print_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.FlutterToast",
+          "module": "fluttertoast_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.connectivity",
+          "module": "connectivity_plus_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 19186102,
+          "sha512": "fe373f975d2a09c76dc30b89226a038d0e1b4e5ad6bfee28b06ab9d0f71620bb01c74be726fe3d84b0d6f81b0675b8d1876baaf46f6360f8a75ffc41487d0cab",
+          "sha256": "32cbde96060581842d102e390e7745d985506aaa67f4501ea11b2299969e3c1f",
+          "sha1": "ed100bda2249b571fcf5d4d0cb051dae28a0a596",
+          "md5": "dcea35721f28dd94e031bc0ef1e6f982"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.peoplewareinnovations.bluetooth_thermal_printer",
+          "module": "bluetooth_thermal_printer_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "xyz.luan.audioplayers",
+          "module": "audioplayers_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.lib.flutter_blue_plus",
+          "module": "flutter_blue_plus_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.bluetooth_print",
+          "module": "bluetooth_print_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.FlutterToast",
+          "module": "fluttertoast_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.connectivity",
+          "module": "connectivity_plus_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 19186102,
+          "sha512": "fe373f975d2a09c76dc30b89226a038d0e1b4e5ad6bfee28b06ab9d0f71620bb01c74be726fe3d84b0d6f81b0675b8d1876baaf46f6360f8a75ffc41487d0cab",
+          "sha256": "32cbde96060581842d102e390e7745d985506aaa67f4501ea11b2299969e3c1f",
+          "sha1": "ed100bda2249b571fcf5d4d0cb051dae28a0a596",
+          "md5": "dcea35721f28dd94e031bc0ef1e6f982"
+        }
+      ]
+    }
+  ]
+}

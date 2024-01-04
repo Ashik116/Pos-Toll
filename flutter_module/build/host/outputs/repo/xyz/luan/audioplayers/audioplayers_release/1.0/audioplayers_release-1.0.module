@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.luan.audioplayers",
+    "module": "audioplayers_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audioplayers_release-1.0.aar",
+          "url": "audioplayers_release-1.0.aar",
+          "size": 34463,
+          "sha512": "155424dcf84e1c52d12cde1604ecd0a30653d422832d7ae94bae06fdd79d72747b02f13770e77c66544daa19eab7774f175ca4297a4c4b82558e63009185804d",
+          "sha256": "2cebdd9d41dd29cd86ed4dd1c54784a1d948079ef341f670d4135acba9478da2",
+          "sha1": "83d6ecab208cea5975b9a87bf39e35c59533a819",
+          "md5": "1d9b95aa9a09ea7601730a5f00e3a549"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-d44b5a94c976fbb65815374f61ab5392a220b084"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audioplayers_release-1.0.aar",
+          "url": "audioplayers_release-1.0.aar",
+          "size": 34463,
+          "sha512": "155424dcf84e1c52d12cde1604ecd0a30653d422832d7ae94bae06fdd79d72747b02f13770e77c66544daa19eab7774f175ca4297a4c4b82558e63009185804d",
+          "sha256": "2cebdd9d41dd29cd86ed4dd1c54784a1d948079ef341f670d4135acba9478da2",
+          "sha1": "83d6ecab208cea5975b9a87bf39e35c59533a819",
+          "md5": "1d9b95aa9a09ea7601730a5f00e3a549"
+        }
+      ]
+    }
+  ]
+}
